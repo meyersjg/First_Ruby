@@ -18,5 +18,5 @@ end
 if plans == "coding"
   puts 'I am proud of you John! Keep up the good work.'
 else
-  puts 'get back to 1871!'
+  puts 'get back to 1871! '
 end

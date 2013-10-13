@@ -70,9 +70,31 @@
 #   puts 'Beer is gone and I am shithoused'
 # end
 
-names = ['John', 'Tess', 'Garrett', 'Chance', 'Pete']
+# names = ['John', 'Tess', 'Garrett', 'Chance', 'Pete']
 
-names.each do |friends|
-  puts 'Studying with ' + friends + ' is so enlightening!'
-  puts 'Don\'t you think so?'
-end
+# names.each do |friends|
+#   puts 'Studying with ' + friends + ' is so enlightening!'
+#   puts 'Don\'t you think so?'
+# end
+
+# friends = ['Garrett', 'Chance', 'Tess', 'Abdula']
+# puts friends
+
+# number_of_friends = friends.count
+# puts 'How many friends do I have? ' + number_of_friends.to_s
+
+# puts friends.first
+
+# puts friends.sample
+
+# puts friends.sort
+
+# favorites = {"band" => "Avetts", "color" => "red", "food" => "sweets", "beer" => "All Day IPA"}
+
+# favorites[:friends] << "Garrett"
+
+# puts favorites
+
+
+
+

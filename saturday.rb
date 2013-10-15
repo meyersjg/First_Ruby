@@ -96,5 +96,66 @@
 # puts favorites
 
 
+# friends = %w[Jon Jack Kyle Fish]
+
+# friends.each do |bros|
+#   puts bros + " is such a bro, don\'t you think?"
+# end
 
 
+# foods = %w[apples oranges quinoa steak chicken burritos]
+
+# puts foods
+# puts
+# puts foods.to_s
+# puts
+# puts foods.join(', ')
+
+
+# sports = %w[hockey lacrosse basketball baseball soccer]
+
+# puts sports.sort
+
+# def say_fuck number_of_fucks
+#   puts 'fuck me! ' * number_of_fucks
+# end
+
+# say_fuck 10
+
+# def double_this num
+#   num_times_2 = num * 2
+#   puts "#{num} doubled is #{num_times_2}"
+# end
+
+# double_this 23
+
+# def square x
+#   puts (x * x)
+# end
+# x=5
+# square x
+
+def favorite_food name
+    if name == 'John'
+      return 'steak'
+    end
+
+    if name == 'Chance'
+      return 'pasta'
+    end
+  end
+
+    def favorite_drink name
+      if name == 'Tess'
+        'vodka soda'
+      elsif name == 'Garrett'
+        'water'
+      else
+        'perhaps an IPA?'
+      end
+    end
+puts favorite_food ('John')
+puts favorite_food ('Chance')
+puts favorite_drink ('Tess')
+puts favorite_drink ('Garrett')
+puts favorite_drink ('Lauren')
